@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Roboto&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Bungee', cursive;
+}
+
+header {
+  background-color: #6A040F;
+}
+
+header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 130px;
+}
+
+header img {
+  height: 160px;
+  margin-top: 30px;
+}
+
+header li {
+  display: inline;
+  margin-right: 60px;
+}
+
+header li a{
+  font-size: 30px;
+  color: white;
+  text-decoration: none;
+}
+
+header li a:hover {
+  color: #F48C06;
+}
+
+section {
+  background-color: #000;
+  color: #F48C06;
+  border: 1px solid white;
+}
+
+section h2 {
+  text-align: center;
+}
+
+section .container img {
+  height: 500px;
+  margin: 30px;
+}
+
+section .container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+form textarea,
+form input, 
+form button {
+  height: 60px;
+  margin: 10px;
+  border-radius: 10px;
+  padding: 17px;
+}
+
+section form {
+  border-radius: 10px;
+  padding: 50px;
+}
+
+section .container form {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+form button {
+  border: none;
+  cursor: pointer;
+}
+
+form input:focus, textarea:focus {
+  outline-color: #F48C06;
+  outline-width: 2px;
+}
+
+form button:hover {
+  background-color:#F48C06;
+  color: white;
+}
+
+form textarea {
+  height: 200px;
+  resize: none;
+}
+
+#gameplay {
+  display: flex;
+}
+#forms {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-end;
+  flex-wrap: wrap;
+}
+
+
+footer {
+  background-color: #6A040F;
+  height: 50px;
+}
+
+footer .container {
+  display: flex;
+  justify-content: center;
+}
